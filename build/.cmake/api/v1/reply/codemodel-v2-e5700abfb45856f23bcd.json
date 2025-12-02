@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "SocialNetworkApp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "SocialNetworkApp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SocialNetworkApp-Debug-417ed3a9f0e481554c44.json",
+					"name" : "SocialNetworkApp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SocialNetworkApp_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SocialNetworkApp_autogen-Debug-b03fe11e440b536e1e90.json",
+					"name" : "SocialNetworkApp_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SocialNetworkApp_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SocialNetworkApp_autogen_timestamp_deps-Debug-6b19908bef1b07dc887a.json",
+					"name" : "SocialNetworkApp_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/ABC/Documents/SocialNetworkProject/build",
+		"source" : "C:/Users/ABC/Documents/SocialNetworkProject"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

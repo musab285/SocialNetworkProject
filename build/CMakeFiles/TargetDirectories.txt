@@ -1,0 +1,5 @@
+C:/Users/ABC/Documents/SocialNetworkProject/build/CMakeFiles/SocialNetworkApp.dir
+C:/Users/ABC/Documents/SocialNetworkProject/build/CMakeFiles/edit_cache.dir
+C:/Users/ABC/Documents/SocialNetworkProject/build/CMakeFiles/rebuild_cache.dir
+C:/Users/ABC/Documents/SocialNetworkProject/build/CMakeFiles/SocialNetworkApp_autogen_timestamp_deps.dir
+C:/Users/ABC/Documents/SocialNetworkProject/build/CMakeFiles/SocialNetworkApp_autogen.dir
