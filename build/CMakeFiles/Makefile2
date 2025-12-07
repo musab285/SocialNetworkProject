@@ -79,8 +79,8 @@ clean: CMakeFiles/SocialNetworkApp_autogen.dir/clean
 # Target rules for target CMakeFiles/SocialNetworkApp.dir
 
 # All Build rule for target.
-CMakeFiles/SocialNetworkApp.dir/all: CMakeFiles/SocialNetworkApp_autogen_timestamp_deps.dir/all
 CMakeFiles/SocialNetworkApp.dir/all: CMakeFiles/SocialNetworkApp_autogen.dir/all
+CMakeFiles/SocialNetworkApp.dir/all: CMakeFiles/SocialNetworkApp_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SocialNetworkApp.dir\build.make CMakeFiles/SocialNetworkApp.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SocialNetworkApp.dir\build.make CMakeFiles/SocialNetworkApp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\ABC\Documents\SocialNetworkProject\build\CMakeFiles --progress-num=1,2,3,4 "Built target SocialNetworkApp"
