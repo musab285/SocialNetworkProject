@@ -4,13 +4,12 @@
 #include <iostream>
 #include <vector>
 #include <string>
-#include <algorithm> // For std::find in vectors
+#include <algorithm> 
 
 using namespace std;
 
-// ---------------------------------------------------------
-// 1. Custom Stack Implementation (Wrapper around Vector)
-// ---------------------------------------------------------
+
+// custom stack
 template <typename T>
 class MyStack {
 private:
@@ -39,9 +38,7 @@ public:
     // The default copy constructor of this class works fine because vector handles it.
 };
 
-// ---------------------------------------------------------
-// 2. Custom Queue Implementation (Wrapper around Vector)
-// ---------------------------------------------------------
+//custom queue 
 template <typename T>
 class MyQueue {
 private:
@@ -53,9 +50,6 @@ public:
     
     void pop() {
         if (!data.empty()) {
-            // Vector erase at beginning is O(N), but allows us to use 
-            // vector libraries as requested without manual memory management 
-            // for a linked list copy constructor.
             data.erase(data.begin());
         }
     }
@@ -70,10 +64,7 @@ public:
     }
 };
 
-// ---------------------------------------------------------
-// 3. Custom Map Implementation (Binary Search Tree)
-// ---------------------------------------------------------
-// Replaces std::map and std::unordered_map
+//custom definition for map, unordered map
 template <typename K, typename V>
 class MyMap {
 private:
@@ -176,31 +167,27 @@ public:
     }
 };
 
-// ---------------------------------------------------------
-// Main Class
-// ---------------------------------------------------------
+// main 
 
 class SocialGraph {
 private:
     // Core Graph Structure: User Name -> List of Friends
-    // Replaced map with MyMap
     MyMap<string, vector<string>> adjList;
     
     // Data Structures for specific features
-    // Replaced stack/queue with MyStack/MyQueue
+    
     MyStack<string> recentUsersStack;
     MyQueue<string> recRequestQueue;
 
 public:
     // 1. Add User
     bool addUser(string name) {
-        // Replaced find()!=end() with contains()
+
         if (adjList.contains(name)) {
             return false; // User already exists
         }
         
         // Initialize empty friend list
-        // operator[] will create the entry automatically
         adjList[name] = vector<string>();
         
         // Push to Stack
