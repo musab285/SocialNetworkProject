@@ -220,9 +220,7 @@ public:
         
         string output = "";
         
-        // MyMap doesn't support C++11 range-based for loops directly without 
-        // writing complex iterators. We use getEntries() to get a vector 
-        // and iterate that instead. Logic remains identical.
+        
         auto allEntries = adjList.getEntries();
 
         for (auto const& entry : allEntries) {
@@ -253,7 +251,6 @@ public:
         recRequestQueue.push(name);
 
         // Logic: Friend of a Friend who is NOT my friend
-        // Replaced unordered_map with MyMap
         MyMap<string, int> potentialFriends;
         const vector<string>& myFriends = adjList[name];
 
